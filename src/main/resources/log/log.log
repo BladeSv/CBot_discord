@@ -1,0 +1,102 @@
+2020-01-30 00:00:00.066  INFO 10208 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-30 00:00:00.392  INFO 10208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-30 00:00:00.406  INFO 10208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-30 00:00:00.407  INFO 10208 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-01-30 00:00:00.572  INFO 10208 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-30 00:00:00.573  INFO 10208 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1715 ms
+2020-01-30 00:00:00.748  INFO 10208 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-30 00:00:00.975  INFO 10208 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-30 00:00:01.051  INFO 10208 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-30 00:00:01.144  INFO 10208 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2020-01-30 00:00:01.395  INFO 10208 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-30 00:00:01.560  INFO 10208 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-01-30 00:00:01.812  INFO 10208 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-30 00:00:01.822  INFO 10208 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-30 00:00:02.818  INFO 10208 --- [main] net.dv8tion.jda.api.JDA                  : Login Successful!
+2020-01-30 00:00:02.932  WARN 10208 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-30 00:00:03.095  INFO 10208 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-30 00:00:03.219  INFO 10208 --- [JDA MainWS-ReadThread] n.d.j.internal.requests.WebSocketClient  : Connected to WebSocket
+2020-01-30 00:00:03.381  INFO 10208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-30 00:00:03.385  INFO 10208 --- [main] b.m.bot.CBotDiscordApplication           : Started CBotDiscordApplication in 5.182 seconds (JVM running for 6.102)
+2020-01-30 00:00:03.569  INFO 10208 --- [JDA MainWS-ReadThread] net.dv8tion.jda.api.JDA                  : Finished Loading!
+2020-01-30 00:00:09.860  INFO 10208 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-30 00:00:09.860  INFO 10208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-30 00:00:09.870  INFO 10208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-01-30 00:00:16.852  INFO 10208 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-01-30 00:00:16.855  INFO 10208 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-30 00:00:16.858  INFO 10208 --- [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-30 00:00:16.859  INFO 10208 --- [RMI TCP Connection(3)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-01-30 00:00:16.862  INFO 10208 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-30 00:00:16.865  INFO 10208 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-30 00:00:34.669  INFO 6292 --- [main] b.m.bot.CBotDiscordApplication           : Starting CBotDiscordApplication on DESKTOP-FC9B9UR with PID 6292 (C:\WORKSPACE\CBot-discord\target\classes started by mihai in C:\WORKSPACE\CBot-discord)
+2020-01-30 00:00:34.674  INFO 6292 --- [main] b.m.bot.CBotDiscordApplication           : No active profile set, falling back to default profiles: default
+2020-01-30 00:00:35.601  INFO 6292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-30 00:00:35.639  INFO 6292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 0 JPA repository interfaces.
+2020-01-30 00:00:36.017  INFO 6292 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-30 00:00:36.318  INFO 6292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-30 00:00:36.329  INFO 6292 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-30 00:00:36.329  INFO 6292 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-01-30 00:00:36.469  INFO 6292 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-30 00:00:36.469  INFO 6292 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1693 ms
+2020-01-30 00:00:36.623  INFO 6292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-30 00:00:36.820  INFO 6292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-30 00:00:36.880  INFO 6292 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-30 00:00:36.972  INFO 6292 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2020-01-30 00:00:37.228  INFO 6292 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-30 00:00:37.349  INFO 6292 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-01-30 00:00:37.625  INFO 6292 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-30 00:00:37.634  INFO 6292 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-30 00:00:38.637  INFO 6292 --- [main] net.dv8tion.jda.api.JDA                  : Login Successful!
+2020-01-30 00:00:38.828  WARN 6292 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-30 00:00:39.012  INFO 6292 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-30 00:00:39.099  INFO 6292 --- [JDA MainWS-ReadThread] n.d.j.internal.requests.WebSocketClient  : Connected to WebSocket
+2020-01-30 00:00:39.331  INFO 6292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-30 00:00:39.337  INFO 6292 --- [main] b.m.bot.CBotDiscordApplication           : Started CBotDiscordApplication in 5.193 seconds (JVM running for 6.019)
+2020-01-30 00:00:39.418  INFO 6292 --- [JDA MainWS-ReadThread] net.dv8tion.jda.api.JDA                  : Finished Loading!
+2020-01-30 00:00:42.922  INFO 6292 --- [JDA MainWS-ReadThread] AbstractService.class                    : User null SUCSSES remove role DAMAGE
+2020-01-30 00:00:43.508  INFO 6292 --- [JDA MainWS-ReadThread] AbstractService.class                    : User null SUCSSES remove role HEAL
+2020-01-30 00:00:48.385  INFO 6292 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-30 00:00:48.386  INFO 6292 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-30 00:00:48.396  INFO 6292 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-01-30 00:01:22.752  INFO 6292 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-01-30 00:01:22.755  INFO 6292 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-30 00:01:22.758  INFO 6292 --- [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-30 00:01:22.758  INFO 6292 --- [RMI TCP Connection(3)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-01-30 00:01:22.762  INFO 6292 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-30 00:01:22.764  INFO 6292 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-30 00:02:43.309  INFO 8 --- [main] b.m.bot.CBotDiscordApplication           : Starting CBotDiscordApplication on DESKTOP-FC9B9UR with PID 8 (C:\WORKSPACE\CBot-discord\target\classes started by mihai in C:\WORKSPACE\CBot-discord)
+2020-01-30 00:02:43.317  INFO 8 --- [main] b.m.bot.CBotDiscordApplication           : No active profile set, falling back to default profiles: default
+2020-01-30 00:02:44.398  INFO 8 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-30 00:02:44.449  INFO 8 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30ms. Found 0 JPA repository interfaces.
+2020-01-30 00:02:44.898  INFO 8 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-30 00:02:45.261  INFO 8 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-30 00:02:45.275  INFO 8 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-30 00:02:45.275  INFO 8 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-01-30 00:02:45.452  INFO 8 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-30 00:02:45.452  INFO 8 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2058 ms
+2020-01-30 00:02:45.618  INFO 8 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-30 00:02:45.807  INFO 8 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-30 00:02:45.869  INFO 8 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-30 00:02:45.975  INFO 8 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2020-01-30 00:02:46.233  INFO 8 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-30 00:02:46.369  INFO 8 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-01-30 00:02:46.657  INFO 8 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-30 00:02:46.669  INFO 8 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-30 00:02:47.801  INFO 8 --- [main] net.dv8tion.jda.api.JDA                  : Login Successful!
+2020-01-30 00:02:47.934  WARN 8 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-30 00:02:48.137  INFO 8 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-30 00:02:48.204  INFO 8 --- [JDA MainWS-ReadThread] n.d.j.internal.requests.WebSocketClient  : Connected to WebSocket
+2020-01-30 00:02:48.462  INFO 8 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-30 00:02:48.470  INFO 8 --- [main] b.m.bot.CBotDiscordApplication           : Started CBotDiscordApplication in 5.844 seconds (JVM running for 6.74)
+2020-01-30 00:02:48.557  INFO 8 --- [JDA MainWS-ReadThread] net.dv8tion.jda.api.JDA                  : Finished Loading!
+2020-01-30 00:03:00.131  INFO 8 --- [JDA MainWS-ReadThread] AbstractService.class                    : User null SUCSSES add role DAMAGE
+2020-01-30 00:03:00.731  INFO 8 --- [JDA MainWS-ReadThread] AbstractService.class                    : User null SUCSSES add role HEAL
+2020-01-30 00:03:05.676  INFO 8 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-30 00:03:05.677  INFO 8 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-30 00:03:05.691  INFO 8 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-01-30 00:03:49.933  INFO 8 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-01-30 00:03:49.937  INFO 8 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-30 00:03:49.940  INFO 8 --- [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-30 00:03:49.941  INFO 8 --- [RMI TCP Connection(3)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-01-30 00:03:49.945  INFO 8 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-30 00:03:49.947  INFO 8 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
