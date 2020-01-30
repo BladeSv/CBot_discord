@@ -2,7 +2,6 @@ package by.mitrahovich.bot.config;
 
 import javax.security.auth.login.LoginException;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -17,9 +16,7 @@ import net.dv8tion.jda.api.JDABuilder;
 @PropertySource("classpath:config.properties")
 public class AppConfig {
 
-	@Value("${bot.token}")
-	private String botToken;
-
+	private String botToken = System.getenv("TOKEN");
 
 	@Bean
 	public JDA getJda() throws LoginException {
